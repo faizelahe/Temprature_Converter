@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: floralwhite;
+    text-align: center;
+    font-family: cursive;
+}
+
+.container {
+    margin: 15rem;
+    padding: 3rem;
+    box-sizing: border-box;
+    border: 5px solid #321;
+    border-radius: 25px;
+    background: #444;
+    color: #f4f4f4;
+}
+
+label {
+    font-size: 1.5rem;
+    font-family: cursive;
+}
+
+input {
+    block-size: 1.5rem;
+    border-radius: 5px;
+}
+
+#stemp {
+    color: #f4f4f4;
+}
+
+.convertbtn {
+    background-color: plum;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-right: 6rem;
+    padding-left: 6rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+.output {
+    display: none;
+    color: #f4f4f4;
+}
+
+.dropbtn {
+    background-color: plum;
+    border-radius: 5px;
+    color: #f4f4f4;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
